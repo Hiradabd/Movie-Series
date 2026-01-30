@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پخش ویدیو</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>پخش ویدیو</h1>
+    <video controls id="videoPlayer">
+        <source id="videoSource" src="" type="video/mp4">
+        مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <script>
+        // دریافت URL از پارامترهای URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const videoUrl = urlParams.get('url');
+
+        //اگر URL وجود داشته باشد، ویدیو را پخش کنید
+        if (videoUrl) {
+            const videoSource = document.getElementById('videoSource');
+            videoSource.src = videoUrl;
+            
+            const videoPlayer = document.getElementById('videoPlayer');
+            videoPlayer.load();
+        } else {
+            document.body.innerHTML = "<h2>لینک ویدیو موجود نیست!</h2>";
+        }
+    </script>
+</body>
+</html>

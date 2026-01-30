@@ -323,6 +323,16 @@ const seriesData = [
     // سریال‌های دیگر...
 ];
 
+document.getElementById("watchOnlineButton").addEventListener("click", function() {
+    const url = prompt("لطفاً URL فیلم یا سریال را وارد کنید:");
+    if (url) {
+        // هدایت به صفحه play.html با پارامتر URL
+        window.open(`play.html?url=${encodeURIComponent(url)}`, "_blank");
+    } else {
+        alert("لطفاً یک URL معتبر وارد کنید.");
+    }
+});
+
 // نمایش سریال‌ها
 function displaySeries(data) {
     const seriesList = document.getElementById("series-list");
@@ -365,6 +375,7 @@ function displaySeries(data) {
     });
 }
 
+
 // جستجو
 document.getElementById("search").addEventListener("input", function() {
     const searchValue = this.value.toLowerCase();
@@ -379,3 +390,4 @@ function toggleSection(sectionId) {
     const section = document.getElementById(sectionId);
     section.style.display = section.style.display === "block" ? "none" : "block";
 }
+
