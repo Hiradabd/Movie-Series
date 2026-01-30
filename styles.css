@@ -15,17 +15,47 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: fixed; /* هدر را ثابت می‌کند */
+    top: 0; /* از بالای صفحه فاصله ندارد */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* اطمینان حاصل می‌کند که هدر روی محتوای دیگر باقی بماند */
 }
 
-h1 {
+header h1 {
     margin: 0;
     font-size: 24px;
 }
 
+header input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+header #watchOnlineButton {
+    background: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: background 0.3s;
+}
+
+header #watchOnlineButton:hover {
+    background: #e0a800;
+}
+
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
+    /* فاصله برای هدر ثابت */
+    padding-top: 100px; /* بسته به ارتفاع هدر ممکن است این مقدار تغییر کند */
 }
 
 .series-detail {
