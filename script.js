@@ -211,6 +211,114 @@ const seriesData = [
                 // فصل‌های دیگر...
             ]
         }
+    },
+    {
+        title: "Stranger Things",
+        imdbCode: "tt4574334",
+        titleType: "tvSeries",
+        imdbVotes: "1,528,592",
+        imdbRates: "8.6",
+        softSub: {
+            seasons: [
+                {
+                    name: "season 1",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S01/1080p.BluRay" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S01/720p.BluRay" },
+                        { quality: "480p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S01/480p.BluRay" }
+                    ]
+                },
+                {
+                    name: "season 2",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S02/1080p.BluRay" },
+                        { quality: "720p BluRay", url: "https://dls7.iran-gamecenter-host.com/DonyayeSerial/series2/tt0903747/SoftSub/S02/720p.BluRay" },
+                        { quality: "480p BluRay", url: "https://dls7.iran-gamecenter-host.com/DonyayeSerial/series2/tt0903747/SoftSub/S02/480p.BluRay" }
+                    ]
+                },
+                {
+                    name: "season 3",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S03/1080p.Web-DL" },
+                        { quality: "1080p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S03/1080p.x265.10bit.Web-DL" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S03/720p.Web-DL" },
+                        { quality: "720p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S03/720p.x265.10bit.Web-DL" },
+                        { quality: "480p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S03/480p.Web-DL" }
+                    ]
+                },
+                {
+                    name: "season 4",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S04/1080p.Web-DL" },
+                        { quality: "1080p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S04/1080p.x265.10bit.Web-DL" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S04/720p.Web-DL" },
+                        { quality: "720p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S04/720p.x265.10bit.Web-DL" },
+                        { quality: "480p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Soft.Sub/S04/480p.Web-DL" }
+                    ]
+                },
+                {
+                    name: "season 5",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/SoftSub/S05/1080p.Web-DL" },
+                        { quality: "1080p x265 10bit BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/SoftSub/S05/1080p.x265.10bit.Web-DL" },
+                        { quality: "720p BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/SoftSub/S05/720p.Web-DL" },
+                        { quality: "720p x265 10bit BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/SoftSub/S05/720p.x265.10bit.Web-DL" },
+                        { quality: "480p BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/SoftSub/S05/480p.Web-DL" }
+                    ]
+                },
+                
+                // فصل‌های دیگر...
+            ]
+        },
+        dubbed: {
+            seasons: [
+                {
+                    name: "season 1",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S01/1080p.BluRay" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S01/720p.BluRay" },
+                        { quality: "720p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S01/720p.x265.BluRay" },
+                        { quality: "480p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S01/480p.BluRay" }
+                    ]
+                },
+                {
+                    name: "season 2",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S02/1080p.BluRay" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S02/720p.BluRay" },
+                        { quality: "720p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S02/720p.x265.BluRay" },
+                        { quality: "480p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S02/480p.BluRay" }
+                    ]
+                },
+                {
+                    name: "season 3",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S03/1080p.Web-DL" },
+                        { quality: "1080p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S03/1080p.x265.Web-DL" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S03/720p.Web-DL" },
+                        { quality: "720p x265 10bit BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S03/720p.x265.Web-DL" },
+                        { quality: "480p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S03/480p.Web-DL" }
+                    ]
+                },
+                {
+                    name: "season 4",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S04/1080p.Web-DL" },
+                        { quality: "720p BluRay", url: "https://dls2.iran-gamecenter-host.com/DonyayeSerial/series/Stranger.Things/Dubbed/S04/720p.Web-DL" },
+
+                    ]
+                },
+                {
+                    name: "season 5",
+                    links: [
+                        { quality: "1080p BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/Dubbed/S05/1080p.Web-DL" },
+                        { quality: "720p BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/Dubbed/S05/720p.Web-DL" },
+                        { quality: "480p BluRay", url: "https://dls8.iran-gamecenter-host.com/DonyayeSerial/series4/tt4574334/Dubbed/S05/480p.Web-DL" }
+                    ]
+                },
+                // فصل‌های دیگر...
+            ]
+        }
     }
     // سریال‌های دیگر...
 ];
