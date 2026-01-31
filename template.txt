@@ -1,0 +1,36 @@
+ {
+        title: "",
+        imdbCode: "",
+        titleType: "",
+        imdbVotes: "",
+        imdbRates: "",
+        softSub: {
+            seasons: [
+                {
+                    name: "season 1",
+                    links: [
+                        { quality: "1080p BluRay", url: "" },
+                        { quality: "720p BluRay", url: "" },
+                        { quality: "480p BluRay", url: "" }
+                    ]
+                },
+
+                // فصل‌های دیگر...
+            ]
+        },
+        dubbed: {
+            seasons: [
+                {
+                    name: "season 1",
+                    links: [
+                        { quality: "1080p BluRay", url: "" },
+                        { quality: "720p BluRay", url: "" },
+                        { quality: "720p x265 10bit BluRay", url: "" },
+                        { quality: "480p BluRay", url: "" }
+                    ]
+                },
+                            ]
+        }
+    }
+    // سریال‌های دیگر...
+];
